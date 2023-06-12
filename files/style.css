@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding:0;
+	background-color: #f1f1f1;
+	color: white;
+	font-family: Atkinson Hyperlegible, sans-serif;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+html body {
+	max-width: 100%;
+	overflow-x: hidden;     
+	background-image: url(../../files/photos/bookbackgorundphoto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.top_div {
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	position: relative;
+	display: flex;    
+	    justify-content: space-between;
+    align-items: center;
+}
+
+.top_text {
+	color: white;
+	font-size: 20px;
+}
+
+.main_div {
+	height: 100vh;
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
